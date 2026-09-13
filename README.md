@@ -1,0 +1,5 @@
+# PLP Python Week 8 — Handy Python Toolkit
+
+This project is a friendly command-line toolkit containing three small Python tools. The Simple Calculator performs arithmetic with two numbers, the To-Do List manages a changing list of tasks, and the Countdown Timer uses a loop to count down to zero. Run the program with `python3 toolkit.py`, choose a numbered option, and follow the prompts; choose 4 to quit.
+
+The hardest part was organizing the menu loop so every tool could finish and return control to the menu without duplicating code. The bug that took longest to fix was making numeric input safe while still allowing the calculator and countdown to keep asking for valid values. I also had to carefully check that the to-do list handled a missing task without crashing. Testing the invalid menu choice helped confirm that the program responds politely and continues running. With one more week, I would add a number-guessing game and save the to-do list to a file so tasks remain available after the program closes.

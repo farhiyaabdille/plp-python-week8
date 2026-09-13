@@ -1,0 +1,26 @@
+WEEK 8 TOOLKIT PLAN
+
+Tool 1 — Simple Calculator
+This tool asks for two numbers and an operation, then displays the calculated result.
+Concepts: conditionals, input conversion, f-strings, and error handling.
+
+Tool 2 — To-Do List
+This tool lets the user add tasks, remove existing tasks safely, and show the changing task list.
+Concepts: loop, list, list methods, membership checking, conditionals, and f-strings.
+
+Tool 3 — Countdown Timer
+This tool asks for a starting number and uses a loop to count down to zero.
+Concepts: loop, range(), input conversion, conditionals, and f-strings.
+
+EXACT MENU TEXT
+Welcome to the Handy Python Toolkit!
+
+Choose a tool:
+1. Simple Calculator
+2. To-Do List
+3. Countdown Timer
+4. Quit
+Enter your choice (1-4):
+
+Invalid choice message: I do not recognize that choice. Please enter 1, 2, 3, or 4.
+Goodbye message: Thanks for using the Handy Python Toolkit. Goodbye!
